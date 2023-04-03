@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 55px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin: 0px 96px;
+    width: 85%;
+    background-color: #f4f4f4;
+}
+
+.header__menu{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.header__menu__link{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: inherit;    
+}
+
+.presentation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 96px ;
+    height: 100vh;
+}
+
+.presentation__content{
+    width: 33.125rem;
+}
+
+.presentation__content__title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.presentation__content__text{
+    font-size: 1.25rem;
+    color: #7A797D;
+    padding-top: 0.5rem;
+    padding-bottom: 1.75rem;
+    font-weight: 400;
+}
+.presentation__content a{
+    margin-right: 2rem;
+}
+
+.about{
+    height: 100vh;
+    background-color: lightcoral;
+}
+.projects{
+    height: 100vh;
+    background-color: orange;
+}
+.contact{
+    height: 100vh;
+    background-color: palevioletred;
+}
+
+.footer{
+    font-weight: 400;
+    color: #7A797D;
+    font-size: 1.25;
+    display: flex;
+    justify-content: space-between;
+    margin: 3.375rem;
+}
+
+.footer__link{
+    display: flex;
+    font-size: 1rem;
+    gap: 1rem;
+    text-decoration: none;
+    color: inherit;
+}
+
