@@ -69,7 +69,7 @@ body {
 }
 
 .presentation__content__text{
-    font-size: .75rem;
+    font-size: 1rem;
     color: #4B179B;
     padding-top: 0.5em;
     padding-bottom: 1.75em;
@@ -82,12 +82,12 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 5% 15%;
+    gap: 2.5rem;
 }
 .about__content{
     width: 615px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
     color: var(--white);
 }
 .about__content__title{
