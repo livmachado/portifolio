@@ -16,22 +16,19 @@
     padding: 0;
 }
 body {
+    box-sizing: border-box;
     background-color: var(--black);
     font-family: var(--primary-font);
     font-weight: 700;
     color: var(--purple-blue);
-    width: 100vw;
 }
 
 .header {
     position: fixed;
-    display:inline-flex;
-    width: 100%;
-    padding: 0 2em;
-    justify-content: space-around;
-    align-items: center;
-    height: 6.5vh;
-    border-top: 8px solid var(--purple-blue);
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0% 0% 10%;
+    width: 80%;
 }
 .header__logo{
     width: 20%;
@@ -92,10 +89,10 @@ body {
 }
 .about__content__title{
     font-size: 2rem;
-    margin-bottom: 2em;
+    margin-bottom: .5em;
 }
 .about__content__text{
-    font-size: .75rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     margin-bottom: 1em;
@@ -133,7 +130,7 @@ body {
     color: var(--white);
     padding: 1em;
     margin: 1em 0;
-    width: 45%;
+    width: 40%;
 }
 .button:hover{
     background-color: var(--purple);
