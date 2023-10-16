@@ -62,10 +62,10 @@ body {
 }
 .img_presentation{
     width: 50%;
+    margin-bottom: 2em;
 }
 .presentation__content__title {
     font-size: 2.5rem;
-    margin-top: 3em;
 }
 
 .presentation__content__text{
