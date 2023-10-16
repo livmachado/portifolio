@@ -33,7 +33,9 @@ body {
     height: 6.5vh;
     border-top: 8px solid var(--purple-blue);
 }
-
+.header__logo{
+    width: 20%;
+}
 .header__menu{
     display: flex;
     align-items: center;
@@ -131,7 +133,7 @@ body {
     color: var(--white);
     padding: 1em;
     margin: 1em 0;
-    width: 50%;
+    width: 45%;
 }
 .button:hover{
     background-color: var(--purple);
