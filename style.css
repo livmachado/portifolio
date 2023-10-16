@@ -98,6 +98,9 @@ body {
     font-weight: 500;
     margin-bottom: 1em;
 }
+.img__about{
+    width: auto;
+}
 .contact{
     height: 100vh;
     display: flex;
